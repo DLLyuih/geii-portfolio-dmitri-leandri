@@ -1,0 +1,161 @@
+{
+  "profile": {
+    "name": "Dmitri Leandri",
+    "title": "Étudiant en BUT GEII - 2ème année",
+    "institution": "IUT de Bordeaux",
+    "bio": "Intéressé par les sciences, notamment les mathématiques et la physique, et animé par la curiosité et la motivation, le parcours s’est orienté vers l’électronique en raison de ses nombreuses applications dans des domaines variés tels que le médical, la défense ou la recherche. \nActuellement en formation BUT GEII à l’IUT de Bordeaux, l’apprentissage combine théorie et pratique autour de la conception de systèmes électroniques et informatiques industriels.",
+    "linkedin": "https://www.linkedin.com/in/dmitri-leandri-a55646413/",
+    "email": "dmitri.leandri@etu.u-bordeaux.fr",
+    "cvUrl": "docs/CV Dmitri Leandri v2-1.pdf",
+    "avatarUrl": ""
+  },
+  "auth": {
+    "username": "admin",
+    "passwordHash": "775943f522beaa5f06c51492ffd0097607bda0bed83e836fbe726df48189ea07",
+    "salt": "geiisalt2026"
+  },
+  "skills": [
+    {
+      "id": "s1",
+      "name": "Python",
+      "level": 85,
+      "category": "programmation",
+      "description": "Scripting, traitement de données scientifiques et développement d'algorithmes de test.",
+      "icon": "Binary"
+    },
+    {
+      "id": "s2",
+      "name": "C ",
+      "level": 65,
+      "category": "programmation",
+      "description": "Programmation de microcontrôleurs (STM32, Arduino) et optimisation matérielle.",
+      "icon": "Cpu"
+    },
+    {
+      "id": "s5",
+      "name": "MATLAB / Simulink",
+      "level": 90,
+      "category": "logiciels",
+      "description": "Simulation de systèmes dynamiques, asservissements et traitement de signal, organisation et traitement de données scientifiques.",
+      "icon": "Activity"
+    },
+    {
+      "id": "s7",
+      "name": "KiCad",
+      "level": 70,
+      "category": "logiciels",
+      "description": "Routage de circuits imprimés double face, création et utilisation de bibliothèques de composants.",
+      "icon": "CircuitBoard"
+    },
+    {
+      "id": "s9",
+      "name": "Électronique analogique",
+      "level": 85,
+      "category": "techniques",
+      "description": "Amplification, filtrage actif/passif, utilisation d'outils de mesures (oscilloscope, analyseur de spectre, VNA, multimètre) .",
+      "icon": "Radio"
+    },
+    {
+      "id": "s10",
+      "name": "Électronique numérique",
+      "level": 85,
+      "category": "techniques",
+      "description": "Portes logiques, bus de communication (I2C, SPI, UART), filtrage numérique et microcontrôleurs.",
+      "icon": "Grid"
+    },
+    {
+      "id": "s11",
+      "name": "Automatisme",
+      "level": 40,
+      "category": "techniques",
+      "description": "Programmation d'automates Schneider/Siemens (LADDER, Grafcet) .",
+      "icon": "Settings"
+    },
+    {
+      "name": "Traitement du signal ",
+      "level": 80,
+      "category": "techniques",
+      "description": "Modulation et demodulation de signaux radio, decodage de signaux numérique (UART, NEC, RS-232)",
+      "icon": "Radio",
+      "id": "s_1780341446617"
+    },
+    {
+      "name": "Soudure",
+      "level": 65,
+      "category": "techniques",
+      "description": "Soudure de composants CMS et THD, réparation de cartes (court-circuits, coupures ).",
+      "icon": "CircuitBoard",
+      "id": "s_1780341781060"
+    },
+    {
+      "name": "Qucs studio",
+      "level": 80,
+      "category": "logiciels",
+      "description": "Simulation de circuits réels et dimensionnement de composants",
+      "icon": "Layers",
+      "id": "s_1780342868477"
+    },
+    {
+      "name": "Mmanagal",
+      "level": 70,
+      "category": "logiciels",
+      "description": "Simulation et conception d'antennes. ",
+      "icon": "Radio",
+      "id": "s_1780342919598"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t1",
+      "year": "2024 - Présent",
+      "title": "BUT GEII (Génie Électrique et Informatique Industrielle)",
+      "subtitle": "IUT de Bordeaux - Université de Bordeaux",
+      "description": "Spécialisation en Électronique et Systèmes Embarqués. Apprentissage de l’électronique, de l’automatisme et de la programmation de systèmes embarqués.",
+      "type": "formation"
+    },
+    {
+      "id": "t3",
+      "year": "2021 - 2024",
+      "title": "Baccalauréat Général Scientifique ",
+      "subtitle": "Lycée Vaclav-Havel, Bègles",
+      "description": "Spécialités suivies : Mathématiques et Physique-Chimie, complétées par l'enseignement de Mathématiques expertes.",
+      "type": "formation"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Robot Mobile Autonome d'Évitement d'Obstacles",
+      "category": "academique",
+      "mainImage": "",
+      "shortDescription": "Conception complète d'un robot mobile autonome doté de capteurs ultrasoniques et infrarouges géré par STM32.",
+      "fullDescription": "Ce projet académique réalisé au cours du 3ème semestre de BUT GEII consistait à concevoir un robot mobile capable de naviguer de manière autonome dans un labyrinthe simple. Nous avons conçu le circuit imprimé sur KiCad, modélisé le châssis mécanique sur SolidWorks pour impression 3D, et écrit le code du firmware en langage C sur un microcontrôleur STM32.",
+      "technologies": "STM32, Langage C, KiCad, SolidWorks, Capteurs US",
+      "date": "Janvier 2025",
+      "difficulties": "Gestion des interruptions temps réel pour la lecture précise des capteurs ultrasoniques et évitement des collisions à vitesse élevée. Calibrage des capteurs analogiques infrarouges face à la lumière ambiante.",
+      "results": "Un prototype 100% opérationnel capable d'éviter tous les obstacles et de naviguer de manière fluide à une vitesse moyenne de 0.5 m/s. Obtention de la meilleure note de la promotion pour ce projet.",
+      "skillsMobilized": "Électronique numérique, Programmation STM32, Modélisation 3D, Conception PCB",
+      "galleryImages": [],
+      "ddcFile": "",
+      "ddfFile": "",
+      "ddvFile": ""
+    },
+    {
+      "id": "p2",
+      "title": "Banc de Test Automatisé pour Moteurs Électriques",
+      "category": "professionnel",
+      "mainImage": "",
+      "shortDescription": "Développement et programmation d'un banc de mesure dynamique avec acquisition de données en temps réel.",
+      "fullDescription": "Dans le cadre de mon stage de 2ème année chez Hydro-Élec, j'ai eu la responsabilité de moderniser un banc d'essai pour moteurs asynchrones. J'ai configuré les convertisseurs de mesure, programmé un automate industriel Schneider pour piloter le cycle de charge du moteur et collecter les données (couple, vitesse, courant, température), et conçu un tableau de bord de supervision.",
+      "technologies": "Automate Schneider, Modbus TCP, Node-RED, Instrumentation",
+      "date": "Mai 2026",
+      "difficulties": "Filtrage du bruit électromagnétique induit par le variateur de vitesse sur les lignes d'acquisition analogique (4-20mA). Configuration du réseau de communication Modbus TCP stable entre l'automate et l'interface de supervision.",
+      "results": "Réduction du temps de test de 50% grâce à l'automatisation du cycle d'essais. Sécurisation accrue de l'opérateur avec arrêt automatique en cas de dépassement de seuil thermique.",
+      "skillsMobilized": "Automatisme, Réseaux industriels, Traitement du signal, Instrumentation",
+      "galleryImages": [],
+      "ddcFile": "",
+      "ddfFile": "",
+      "ddvFile": ""
+    }
+  ]
+}
